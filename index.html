@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="box">
+      <div id="top">
+        <h4>Calculator</h4>
+        <button class="clear" onclick="cleared()"><h4>C</h5></button>
+      </div>
+      <div id="display"><h2 id="output"></h2></div>
+      <div id="main">
+        <div id="num">
+          <button class="num" onclick="addNum(1)"><h2>1</h2></button>
+          <button class="num" onclick="addNum(2)"><h2>2</h2></button>
+          <button class="num" onclick="addNum(3)"><h2>3</h2></button>
+          <button class="num" onclick="addNum(4)"><h2>4</h2></button>
+          <button class="num" onclick="addNum(5)"><h2>5</h2></button>
+          <button class="num" onclick="addNum(6)"><h2>6</h2></button>
+          <button class="num" onclick="addNum(7)"><h2>7</h2></button>
+          <button class="num" onclick="addNum(8)"><h2>8</h2></button>
+          <button class="num" onclick="addNum(9)"><h2>9</h2></button>
+          <button class="num" onclick="revert()"><h2>-/+</h2></button>
+          <button class="num" onclick="addNum(0)"><h2>0</h2></button>
+          <button class="num" onclick="calculation()"><h2>=</h2></button>
+        </div>
+        <div id="op">
+          <button class="op" onclick="newData('+')"><h2>+</h2></button>
+          <button class="op" onclick="newData('-')"><h2>-</h2></button>
+          <button class="op" onclick="newData('*')"><h2>*</h2></button>
+          <button class="op" onclick="newData('/')"><h2>/</h2></button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
